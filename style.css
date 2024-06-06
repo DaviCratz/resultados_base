@@ -30,7 +30,7 @@ body {
     background: var(--resultado-bg);
     text-align: center;
     color: var(--white);
-    border-radius: 0 0 3.2rem 3.2rem;
+    border-radius:3.2rem;
 }
 
 .resultado h1 {
@@ -74,7 +74,7 @@ body {
 
 .resumo {
     padding: 2.4rem 3.2rem;
-    background: var(--white);
+    border-radius: 3.2rem;
 }
 
 .resumo h2 {
@@ -195,5 +195,17 @@ body {
             .resumo h2 {
                 font-size: 2.4rem;
                 margin-bottom: 3rem;
+            }
+
+            .resumo div {
+                font-size: 1.8rem;
+            }
+            .resumo button {
+                margin-top: 2.4rem;
+            }
+
+            .resumo button:hover {
+                background: var(--resultado-bg);
+                cursor: pointer;
             }
         }
